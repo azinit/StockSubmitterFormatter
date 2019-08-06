@@ -13,15 +13,15 @@ from fios.io import console
 
 def main():
     # from lib import settings
-    from lib.controllers.menu import Menu
+    from lib.controllers.maincontroller import MainController
     # from lib.utils.main import Database
 
     # Database.init_storage()
 
-    menu = Menu(
+    main_controller = MainController(
         time_interval=0.0000000000000000000000001,
     )
-    menu.run()
+    main_controller.run()
 
 
 if __name__ == '__main__':
