@@ -14,11 +14,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.7057569">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/controllers/formatcontroller.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+                <state relative-caret-position="541">
+                  <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
                   <folding>
                     <element signature="e#0#27#0" expanded="true" />
                   </folding>
@@ -26,16 +26,39 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/settings.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/utils/PapaStocker.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SECOND">
-                  <first_editor />
-                  <second_editor />
+            <entry file="file://$PROJECT_DIR$/lib/controllers/formatcontroller.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#0#27#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -60,6 +83,8 @@
       <find>austin</find>
       <find>robots</find>
       <find>включено</find>
+      <find>tkinter</find>
+      <find>--disable-features</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,21 +94,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/controllers/menu.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/fios/web/webkit.py" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/1.csv" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/fios/io/reader.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/fios/io/console.py" />
-        <option value="$PROJECT_DIR$/lib/utils/PapaStocker.py" />
         <option value="$PROJECT_DIR$/Formatter/input/formatted.csv" />
         <option value="$PROJECT_DIR$/Formatter/input/fl.csv" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/fios/io/writer.py" />
-        <option value="$PROJECT_DIR$/lib/controllers/maincontroller.py" />
-        <option value="$PROJECT_DIR$/lib/settings.py" />
         <option value="$PROJECT_DIR$/Formatter/input/test_set/1.csv" />
         <option value="$PROJECT_DIR$/Formatter/input/test_set/1 - Copy.csv" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/lib/controllers/formatcontroller.py" />
+        <option value="$PROJECT_DIR$/lib/controllers/maincontroller.py" />
+        <option value="$PROJECT_DIR$/lib/settings.py" />
+        <option value="$PROJECT_DIR$/lib/utils/PapaStocker.py" />
       </list>
     </option>
   </component>
@@ -98,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -110,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,23 +145,24 @@
             <path>
               <item name="[SHUTTER] Submitter" type="b2602c69:ProjectViewProjectNode" />
               <item name="[SHUTTER] Submitter" type="462c0819:PsiDirectoryNode" />
-              <item name="Formatter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="[SHUTTER] Submitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="[SHUTTER] Submitter" type="462c0819:PsiDirectoryNode" />
-              <item name="Formatter" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="[SHUTTER] Submitter" type="b2602c69:ProjectViewProjectNode" />
               <item name="[SHUTTER] Submitter" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="[SHUTTER] Submitter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="[SHUTTER] Submitter" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,17 +177,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\__STORAGE__\2.WORK\(C) Other\Freelance\Orders\(__WIP__)\[SHUTTER] Submitter\lib\controllers" />
-      <recent name="E:\__STORAGE__\2.WORK\(C) Other\Freelance\Orders\(__WIP__)\[SHUTTER] Submitter\lib\utils" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\__STORAGE__\2.WORK\(C) Other\Freelance\Orders\(__WIP__)\[SHUTTER] Submitter" />
       <recent name="E:\__STORAGE__\2.WORK\(C) Other\Freelance\Orders\(__WIP__)\[SHUTTER] Submitter\Formatter" />
       <recent name="E:\__STORAGE__\2.WORK\(C) Other\Freelance\Orders\(__WIP__)\[SHUTTER] Submitter\lib\controllers" />
       <recent name="E:\__STORAGE__\2.WORK\(C) Other\Freelance\Orders\(__WIP__)\[SHUTTER] Submitter\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\__STORAGE__\2.WORK\(C) Other\Freelance\Orders\(__WIP__)\[SHUTTER] Submitter\lib\controllers" />
+      <recent name="E:\__STORAGE__\2.WORK\(C) Other\Freelance\Orders\(__WIP__)\[SHUTTER] Submitter\lib\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,9 +248,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="[SHUTTER] Submitter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.settings" />
         <item itemvalue="Python.PapaStocker" />
       </list>
     </recent_temporary>
@@ -241,18 +290,18 @@
       <updated>1565099313033</updated>
       <workItem from="1565099314160" duration="3145000" />
       <workItem from="1565103728893" duration="2381000" />
-      <workItem from="1565108271702" duration="15952000" />
+      <workItem from="1565108271702" duration="20216000" />
+      <workItem from="1565158972871" duration="1094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21478000" />
+    <option name="totallyTimeSpent" value="26836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="-8" width="976" height="1096" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -284,8 +333,9 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/_SHUTTER__Submitter$main.coverage" NAME="main Coverage Results" MODIFIED="1565129100204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_SHUTTER__Submitter$main.coverage" NAME="main Coverage Results" MODIFIED="1565159415298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/_SHUTTER__Submitter$PapaStocker.coverage" NAME="PapaStocker Coverage Results" MODIFIED="1565114762175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/utils" />
+    <SUITE FILE_PATH="coverage/_SHUTTER__Submitter$settings.coverage" NAME="settings Coverage Results" MODIFIED="1565132594921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/fios/web/webkit.py">
@@ -295,30 +345,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <element signature="e#358#363#0" expanded="true" />
-            <element signature="e#370#375#0" expanded="true" />
-            <element signature="e#929#934#0" expanded="true" />
-            <element signature="e#941#946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/adapters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="515" selection-start-line="515" selection-end-line="515" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -336,15 +367,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Formatter/input/1.csv">
+    <entry file="file://$PROJECT_DIR$/input/1.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/fios/io/console.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/fios/os/explorer.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -355,14 +379,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Formatter/input/fl.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Formatter/input/formatted.csv">
+    <entry file="file://$PROJECT_DIR$/Formatter/input/fl.csv" />
+    <entry file="file://$PROJECT_DIR$/input/formatted.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="424" />
@@ -376,58 +394,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/maincontroller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/PapaStocker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Formatter/input/test_set/1.csv">
+    <entry file="file://$PROJECT_DIR$/input/test_set/1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" selection-start-line="1" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Formatter/input/test_set/1 - Copy.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/formatcontroller.py">
+    <entry file="file://$PROJECT_DIR$/Formatter/input/test_set/1 - Copy.csv" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/fios/io/console.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        <state relative-caret-position="-530">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/maincontroller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/lib/controllers/formatcontroller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/PapaStocker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>

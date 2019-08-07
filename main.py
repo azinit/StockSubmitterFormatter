@@ -14,6 +14,8 @@ from fios.io import console
 def main():
     # from lib import settings
     from lib.controllers.maincontroller import MainController
+    from lib.settings import SettingsMaster
+    SettingsMaster.info()
     # from lib.utils.main import Database
 
     # Database.init_storage()
@@ -27,13 +29,14 @@ def main():
 if __name__ == '__main__':
     import sys
 
-    # try:
-    console.log("Загружаются модули для скрипта...")
-    main()
-    console.log("Скрипт успешно завершил работу!")
-    # except Exception as e:
-    #     import traceback
-    #     console.log("Работа скрипта прервана из за непредвиденной ошибки")
-    #     print(str(e), file=sys.stderr, flush=True)
+    try:
+        console.log("Загружаются модули для скрипта...")
+        main()
+        console.log("Скрипт успешно завершил работу!")
+    except Exception as e:
+        import traceback
+        print(e)
+        console.log("Работа скрипта прервана из за непредвиденной ошибки")
+        print(str(e), file=sys.stderr, flush=True)
 
     input("Нажмите любую клавишу для выхода... ")
